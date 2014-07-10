@@ -1,4 +1,4 @@
-###spike-rate-control
+###Spike Rate Controller
 
 **Requirements:** None  
 **Limitations:** None  
