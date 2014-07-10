@@ -5,6 +5,8 @@
 
 ![Module GUI](spike-rate-control.png)
 
+This module is designed to stabilize spike rates around a user-specified ISI. It reads in the spike state of a connected spike detector module and, depending on the state of the detector and the specified ISI, outputs a current. The amplitude is determined by comparing the error between real ISI and the target. When error oscillates around the target, output is small, but when error increases, the output increases in amplitude. 
+
 ####Input Channels
 1. input(0) - State : the 'state' of the detector
 
@@ -20,4 +22,3 @@
 ####States
 1. IApp : current (A)
 
-This module reads in the spike state of a connected spike detector module and, depending on the state of the detector and the specified ISI, outputs a current. The amplitude is determined by comparing the error between real ISI and the target. When error oscillates around the target, output is small, but when error increases, the output increases in amplitude. The behavior is indended to stabilize spike rate around the specified ISI. 
