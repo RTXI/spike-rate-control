@@ -80,6 +80,8 @@ SpikeRateController::SpikeRateController(void)
   ThisISI=0;
   
   count=0;
+
+  createGUI(vars, num_vars);
   
   update(INIT);
   refresh();
