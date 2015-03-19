@@ -1,11 +1,9 @@
-PLUGIN_NAME = spike_rate_control
+PLUGIN_NAME = SpikeRateController
 
-HEADERS = spike-rate-control.h
+HEADERS = SpikeRateController.h
 
-SOURCES = spike-rate-control.cpp\
-	moc_spike-rate-control.cpp
-
-LIBS = 
+SOURCES = SpikeRateController.cpp \
+          moc_SpikeRateController.cpp\
 
 ### Do not edit below this line ###
 
