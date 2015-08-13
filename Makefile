@@ -3,7 +3,7 @@ PLUGIN_NAME = spike_rate_control
 HEADERS = spike-rate-control.h
 
 SOURCES = spike-rate-control.cpp\
-	moc_spike-rate-control.cpp
+          moc_spike-rate-control.cpp
 
 LIBS = 
 
