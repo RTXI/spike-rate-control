@@ -84,7 +84,7 @@ SpikeRateController::SpikeRateController(void) : DefaultGUIModel("SpikeRateContr
 	update(INIT);
 	refresh();
 
-	QTimer::singleShot(0, this, SLOT(resizeMe()));
+	resizeMe();
 }
 
 SpikeRateController::~SpikeRateController(void) {}
