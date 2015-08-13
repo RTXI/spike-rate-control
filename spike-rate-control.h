@@ -23,34 +23,34 @@ class SpikeRateController : public DefaultGUIModel
 	
 	public:
 	
-	SpikeRateController(void);
-	virtual ~SpikeRateController(void);
-	virtual void execute(void);
+		SpikeRateController(void);
+		virtual ~SpikeRateController(void);
+		virtual void execute(void);
 	
 	protected:
 	
-	virtual void update(DefaultGUIModel::update_flags_t);
+		virtual void update(DefaultGUIModel::update_flags_t);
 	
 	private:
 	
-	double TargetISI;
-	double MaxdeltaI;
-	double A;
-	double InitialI;
-	
-	double DeltaI;
-	char ChangedCurrent;
-	
-	double LastError;
-	double ThisError;
-	double LastSpikeTime;
-	double ThisSpikeTime;
-	long long count;
-	double IApp;
-	double TIME;
-	double DeltaT;
-	
-	int state;
-	double ThisISI;
+		double TargetISI;
+		double MaxdeltaI;
+		double A;
+		double InitialI;
+		
+		double DeltaI;
+		char ChangedCurrent;
+		
+		double LastError;
+		double ThisError;
+		double LastSpikeTime;
+		double ThisSpikeTime;
+		long long count;
+		double IApp;
+		double TIME;
+		double DeltaT;
+		
+		int state;
+		double ThisISI;
 };
 
